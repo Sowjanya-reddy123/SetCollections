@@ -28,13 +28,13 @@ public class SetComparison {
         long endTime = System.nanoTime();
         long hashSetTime = endTime - startTime;
 
-        // Measure time for adding elements to TreeSet
+
         startTime = System.nanoTime();
         addElements(treeSet, numberOfElements);
         endTime = System.nanoTime();
         long treeSetTime = endTime - startTime;
 
-        // Display results
+
         System.out.println("HashSet time: " + hashSetTime + " ns");
         System.out.println("TreeSet time: " + treeSetTime + " ns");
 

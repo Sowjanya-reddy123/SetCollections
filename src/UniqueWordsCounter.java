@@ -39,10 +39,8 @@ public class UniqueWordsCounter {
         UniqueWordsCounter counter = new UniqueWordsCounter();
         String filePath = "sample.txt"; // Replace with your file path
 
-        // Read file and count unique words
-        counter.readFile(filePath);
 
-        // Display unique words and their count
+        counter.readFile(filePath);
         counter.displayUniqueWords();
         System.out.println("\nTotal unique words: " + counter.getUniqueWordCount());
     }
